@@ -1,0 +1,44 @@
+gitignore
+# Виртуальные окружения Python
+student_env/
+venv/
+.env
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Файлы настроек IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы логов
+*.log
+logs/
+
+# Файлы базы данных (если появятся)
+*.db
+*.sqlite3
+
+# Файлы Streamlit
+.streamlit/
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы с чувствительными данными (пароли, ключи)
+config.py
+secrets.py
+*.key
+*.pem
